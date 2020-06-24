@@ -3,21 +3,37 @@
 <h3 align="center">Aplicação de registro e busca de sítios voltados a lazer e cultura em Portugal (em progresso...)</h3>
 
 <br />
-<p>A aplicação consiste na busca de receitas de coquetéis por nomes ou ingredientes através de uma API REST. A partir da submissão do input é possível interagir com os card através dos menus toggle para acessar as informações, como ingredientes e instruções de preparo.</p>
+<p>A aplicação consiste no cadastro de uma nova localidade dentro do espaço português como praias, sítios históricos, cultura, arquitectura, restaurante e mais... Através do uso de inputs, mapa e botões pré determinados é possível facilmente classificar um sítio novo para uma busca simples e prática, que facilite o usuários que buscam por informações mais ágeis. </p>
 
 ### **Tecnologias e Bibliotecas utilizadas**
+
+Backend:
+
+- Node.js;
+- Express;
+- Knex;
+- Multer;
+- Sqlite3;
+- Json-server;
+- Typecsript;
 
 Frontend:
 
 - React JS;
-- Hooks;
+- React Native;
+- Typescript;
 - Styled-Components;
 - Axios;
+- Leafflet;
+- React-Dropzone;
+- React-Icons;
+- React-Native-Maps;
+- React-Native-Location;
 
 <br />
 
 <p align="center">
-  <img alt="E-Giro" src="https://i.ibb.co/7WnKT7h/01.png" />
+  <img alt="E-Giro" src="https://i.ibb.co/7WnKT7h/01.png" height="500px" />
 </p>
 <p align="center">
   <img src="https://i.ibb.co/x2GjtSq/e-giro.gif" alt="E-Giro" border="0">
