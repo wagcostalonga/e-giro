@@ -20,7 +20,7 @@ Frontend:
   <img alt="E-Giro" src="https://i.ibb.co/7WnKT7h/01.png" />
 </p>
 <p align="center">
-  <img src="https://i.ibb.co/2ZWTRgk/e-giro.gif" alt="E-Giro" border="0">
+  <img src="https://i.ibb.co/x2GjtSq/e-giro.gif" alt="E-Giro" border="0">
 </p>
 
 ---
