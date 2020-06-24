@@ -1,0 +1,222 @@
+{
+  "districts": [
+    {
+      "id": 1,
+      "title": "Aveiro"
+    },
+    {
+      "id": 2,
+      "title": "Beja"
+    },
+    {
+      "id": 3,
+      "title": "Braga"
+    }, 
+    {
+      "id": 4,
+      "title": "Bragança"
+    }, 
+    {
+      "id": 5,
+      "title": "Castelo Branco"
+    }, 
+    {
+      "id": 6,
+      "title": "Coimbra"
+    }, 
+    {
+      "id": 7,
+      "title": "Évora"
+    }, 
+    {
+      "id": 8,
+      "title": "Faro"
+    }, 
+    {
+      "id": 9,
+      "title": "Guarda"
+    }, 
+    {
+      "id": 10,
+      "title": "Leiria"
+    }, 
+    {
+      "id": 11,
+      "title": "Lisboa"
+    }, 
+    {
+      "id": 12,
+      "title": "Portalegre"
+    }, 
+    {
+      "id": 13,
+      "title": "Porto"
+    }, 
+    {
+      "id": 14,
+      "title": "Santarém"
+    }, 
+    {
+      "id": 15,
+      "title": "Setúbal"
+    }, 
+    {
+      "id": 16,
+      "title": "Viana do Castelo"
+    }, 
+    {
+      "id": 17,
+      "title": "Vila Real"
+    }, 
+    {
+      "id": 18,
+      "title": "Viseu"
+    }  
+  ],
+
+  "Aveiro": [
+      {
+        "id": 1,
+        "title": "Águeda"
+      },
+      {
+        "id": 2,
+        "title": "Álbergaria-a-Velha"
+      },
+      {
+        "id": 3,
+        "title": "Anadia"
+      },
+      {
+        "id": 4,
+        "title": "Arouca"
+      },
+      {
+        "id": 5,
+        "title": "Aveiro"
+      },
+      {
+        "id": 6,
+        "title": "Castelo de Paiva"
+      },
+      {
+        "id": 7,
+        "title": "Espinho"
+      },
+      {
+        "id": 8,
+        "title": "Estarreja"
+      },
+      {
+        "id": 9,
+        "title": "Ílhavo"
+      },
+      {
+        "id": 10,
+        "title": "Mealhada"
+      },
+      {
+        "id": 11,
+        "title": "Murtosa"
+      },
+      {
+        "id": 12,
+        "title": "Oliveira de Azeméis"
+      },
+      {
+        "id": 13,
+        "title": "Oliveira do Barro"
+      },
+      {
+        "id": 14,
+        "title": "Ovar"
+      },
+      {
+        "id": 15,
+        "title": "Santa Maria da Feira"
+      },
+      {
+        "id": 16,
+        "title": "São João da Madeira"
+      },
+      {
+        "id": 17,
+        "title": "Sever do Vagos"
+      },
+      {
+        "id": 18,
+        "title": "Vagos"
+      },
+      {
+        "id": 19,
+        "title": "Vale de Cambra"
+      }
+    ],
+
+  "Lisboa": [
+        {
+          "id": 1,
+          "title": "Alenquer"
+        },
+        {
+          "id": 2,
+          "title": "Amadora"
+        },
+        {
+          "id": 3,
+          "title": "Arruda dos Vinhos"
+        },
+        {
+          "id": 4,
+          "title": "Azambuja"
+        },
+        {
+          "id": 5,
+          "title": "Cadaval"
+        },
+        {
+          "id": 6,
+          "title": "Cascais"
+        },
+        {
+          "id": 7,
+          "title": "Lisboa"
+        },
+        {
+          "id": 8,
+          "title": "Loures"
+        },
+        {
+          "id": 9,
+          "title": "Lourinhã"
+        },
+        {
+          "id": 10,
+          "title": "Mafra"
+        },
+        {
+          "id": 11,
+          "title": "Odivelas"
+        },
+        {
+          "id": 12,
+          "title": "Oeiras"
+        },
+        {
+          "id": 13,
+          "title": "Sintra"
+        },
+        {
+          "id": 14,
+          "title": "Sobral de Monte Agraço"
+        },
+        {
+          "id": 15,
+          "title": "Torres Vedras"
+        },
+        {
+          "id": 16,
+          "title": "Vila Franca de Xira"
+        }
+      ] 
+    }
