@@ -33,7 +33,7 @@ Frontend:
 <br />
 
 <p align="center">
-  <img alt="E-Giro" src="https://i.ibb.co/7WnKT7h/01.png" height="490px" />
+  <img alt="E-Giro" src="https://i.ibb.co/7WnKT7h/01.png" height="490px" width="auto" />
 </p>
 <p align="center">
   <img src="https://i.ibb.co/WGZg3Ff/e-giro.gif" alt="E-Giro" border="0">
