@@ -20,7 +20,7 @@ class PlacesController {
     const serializedPlaces = places.map(place => {
       return {
         ...place,
-        image_url: `http://192.168.1.4:3333/uploads/${place.image}`,
+        image_url: `http://localhost:3333/uploads/${place.image}`,
       }
     });      
 
@@ -38,7 +38,7 @@ class PlacesController {
 
     const serializedPlace = {
         ...place,
-        image_url: `http://192.168.1.4:3333/uploads/${place.image}`,
+        image_url: `http://localhost:3333/uploads/${place.image}`,
     }; 
 
     const types = await knex('types')

@@ -9,7 +9,7 @@ class TypesController {
       return {
         id: type.id,
         title: type.title,
-        image_url: `http://192.168.1.4:3333/uploads/${type.image}`,
+        image_url: `http://localhost:3333/uploads/${type.image}`,
       };
     });
   
