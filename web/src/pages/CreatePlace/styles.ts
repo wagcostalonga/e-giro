@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { lighten } from 'polished';
+import { darken, lighten } from 'polished';
 
 export const Container = styled.div`
   height: 100vh;
@@ -168,4 +168,8 @@ export const ButtonSubmit = styled.button`
   margin-top: 40px;
   transition: background-color 0.2s;
   cursor: pointer;
+
+  &:hover {
+    background: ${darken(0.04, '#72bc49')};
+  }
 `;

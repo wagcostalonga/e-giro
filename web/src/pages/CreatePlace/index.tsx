@@ -77,7 +77,7 @@ const CreatePlace: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    api.get('types').then((response) => {
+    api.get('/types').then((response) => {
       setTypes(response.data);
     });
   }, []);
@@ -148,6 +148,7 @@ const CreatePlace: React.FC = () => {
   const handleSubmit = useCallback(
     async (e: FormEvent) => {
       e.preventDefault();
+
       const { name, website, phone } = formData;
       const council = selectedCouncil;
       const district = selectedDistrict;
@@ -163,7 +164,7 @@ const CreatePlace: React.FC = () => {
       data.append('council', council);
       data.append('latitude', String(latitude));
       data.append('longitude', String(longitude));
-      data.append('types', types.join(','));
+      data.append('types', types.join(', '));
 
       if (selectedFile) {
         data.append('image', selectedFile);
@@ -171,19 +172,18 @@ const CreatePlace: React.FC = () => {
 
       await api.post('places', data);
 
-      console.log(data);
       alert('Novo sítio cadastrado com sucesso!');
 
       history.push('/');
     },
     [
       formData,
+      history,
       selectedCouncil,
       selectedDistrict,
+      selectedFile,
       selectedPosition,
       selectedTypes,
-      selectedFile,
-      history,
     ]
   );
 
